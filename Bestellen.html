@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unbenanntes Dokument</title>
+<link rel="stylesheet" href="Stylesheet.css" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){$(".menubutton").click(function(){$("nav").slideToggle("slow");});})	
+	</script>
+</head>
+
+<body>
+
+<div id="website"> 
+  
+  
+  <header> 
+         <ul>
+             <li><a href="Index.html"><img src="logo.png"></a></li>
+         </ul>
+         
+         <h1>Food-Trends
+         </h1> 
+        
+  </header>
+ 
+  <nav>
+      <ul>
+          <li><a href="Rezepte.html">Rezepte</a></li>
+          <li><a href="Kochbücher.html">Kochbücher</a></li>
+          <li><a href="Trends.html">Trends</a></li>
+          <li><a href="Bestellen.html">Bestellen</a></li>
+      </ul>
+  </nav>
+  
+  
+  <section id="button">
+      <ul>
+         <li> <a class="menubutton" href="#menue"><img src="Button.png" alt=""/></a></li>
+      </ul> 
+  </section>
+   
+   
+  <main id="main5">
+    <h2 >Bestellformular</h2><hr width="40%">
+   
+   <form action="Bestellen.php" method="get">
+    <section>
+      <article id="article1">
+      <h4>Bitte füllen Sie folgende Felder aus!</h4>
+
+<input type="radio" name="auswahl" value="1" checked="checked"> Kochbuch 1<br />
+<input type="radio" name="auswahl" value="2"> Kochbuch 2<br />
+<input type="radio" name="auswahl" value="3"> Kochbuch 3<br />
+<input type="radio" name="auswahl" value="4"> Kochbuch 4<br />
+<br />
+Anzahl: <input type="text" name="anzahl"><br />
+<br />
+<br />
+<br />
+		  	      </article>
+     
+     
+      <article id="article2">
+
+<h3>Rechnungsadresse: </h3>
+
+
+<div id="rechnung">Vorname: 
+<p>Name: </p>
+<p>Ort: </p>
+<p>Straße:</p> </div>
+
+<div id="rechnung2"> 
+   <input type="text" name="vorname">
+<p><input type="text" name="name"></p>
+<p><input type="text" name="ort"></p>
+	<input type="text" name="strase"></div>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<div id="kaufen">
+ <input type="submit" value="Kaufen"> 
+<input type="reset" value="Zurücksetzen">
+</div>
+      </article>
+     
+      
+      <article id="article3">
+    <h4>Newsletter Bestellen</h4>
+  <br />
+    Abbonieren Sie unseren Newsletter und bleiben sie immer auf dem neusten Stand. Wir senden ihen immer aktuelle informationen und Inspirationen zu neien Rezepten zu.<br />
+    <br />
+    E-mail: <input type="text" name="email">
+    <br/>
+    <br />
+    <input type="submit" value="Abbonieren">
+       </article>
+    
+    </section>
+   
+   </form>
+   </main>
+ 
+   <footer>
+   	<div id="footer2">Kontaktieren Sie uns unter:<br /> Email: Foodtrends@web.de </div>
+       <div id="footer4">Folgen Sie unseren Social Medias:<br /> Facebook, Instagramm, Twitter, Youtube</div><div id="footer3"><a href="Impressum.html">Impressum</a></div>
+   </footer>
+   
+   
+</div>
+
+
+
+</body>
+</html>
